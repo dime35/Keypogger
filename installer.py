@@ -1,20 +1,20 @@
 from urllib.request import urlretrieve
 import os
 import subprocess
-import cmd
 
 
-# nmapname = 'nmap-7.91-win32.zip'
-# metasploitname = 'metasploitframework-latest.msi'
-#
-# nmapurl = 'https://nmap.org/dist/' + nmapname
-# metasploiturl = 'https://windows.metasploit.com/' + metasploitname
-#
-# urlretrieve(nmapurl, nmapname)
-# urlretrieve(metasploiturl, metasploitname)
+#exein = "msfconsole -q -x 'db_status' >> log.txt"
 
 
+#exe = os.system(exein)
+#f = open("log.txt", "w")
+#print("hi")
 
-os.system("msfconsole -x 'db_nmap -sV 13.210.40.244';'quit'")
+#os.system(bytes(exein))
+#if __name__ == '__main__':
+ip = "13.210.40.244" #input("enter your IP: ")
+exein = "msfconsole -q -x 'db_nmap -sV " + ip + " ; hosts ; services ; vulns ; quit'"
+#exein = "msfconsole -q -x 'db_status ; version ; quit'"
+os.system(exein)
 
-# msfconsole -x 'db_nmap -sV 13.210.40.244';'quit'
+# msfconsole -x 'db_nmap -sV 13.210.40.244';'exit'
