@@ -1,4 +1,7 @@
 import os
-import installer
+def exestart(ip):
+    os.system('bash -c "python3 installer.py ' + ip + ' > log.txt"')
 
-os.system('bash -c "python3 installer.py > log.txt"')
+
+
+
