@@ -15,8 +15,6 @@ import cmd
 
 
 
-#os.system("msfconsole -x 'db_nmap -sV 13.210.40.244';'quit'")
-
-subprocess.('C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Metasploit\Metasploit Console')
+os.system("msfconsole -x 'db_nmap -sV 13.210.40.244';'quit'")
 
 # msfconsole -x 'db_nmap -sV 13.210.40.244';'quit'
