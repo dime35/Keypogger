@@ -27,8 +27,10 @@ def buttonPressed():
         v.set("")
     else:
         open('log.txt', 'w').close()
+
         execute.exestart(input)
         fillporttree()
+        fillvulntree()
 
 
 
@@ -64,6 +66,13 @@ def fillporttree():
     for port in ports:
         s = logfilter.splithost(port)
         porttree.insert(parent='',index = 0,text = s[0], values=(s[1], s[2]))
+def fillvulntree():
+    vulns = logfilter.readvuln()
+    if vulns == []:
+        return
+    for vuln in vulns:
+        s = logfilter.splithost(vuln)
+        vulntree.insert(parent='', index=0, text=s[0], values=(s[1]))
 
 
 submit.pack()
