@@ -5,7 +5,7 @@ ENITRE README BEFORE DOWNLOADING ANYTHING, FOR YOUR OWN SAFTEY
 not utilize it for this, Memesploit is a very cybercecurity software, and is very popular for applications in CTFs. Because of this, it contains some files that will alert your 
 antivirus. 
 
-2. THIS PROJECT WILL ONLY RUN ON LINUX. If you wish to install it, please use an Ubuntu or other similar lynix Virtual Machine, as  it will not work otherwise.
+2. THIS PROJECT WILL ONLY RUN ON LINUX. If you wish to install it, please use an Ubuntu or other similar linux Virtual Machine, as  it will not work otherwise.
 
 3. BE CAUTIOUS WHEN USING THIS PROGRAM. DO NOT USE THIS ON ANY IP OTHER THAN YOUR OWN. You must be aware that a large number of requests will be made by this program to the 
 network of choice, and less stable networks have a rather high chance of failing.
