@@ -1,20 +1,19 @@
-Hello judges! We are so excited to have you here to try our program! There are a few important dependancies that you will need to install first though, but READ THE 
-ENITRE README BEFORE DOWNLOADING ANYTHING, FOR YOUR OWN SAFTEY
+Hello judges! We are so excited to have you here to try our program! There are a few important dependancies that you will need to install first though, but please READ THE ENITRE README BEFORE DOWNLOADING ANYTHING, To ensure proper installation of this demo.
 
-1. This project relies on two pieces of cybercecurity API's, mmap and Memesploit. UNDER NO CURCIMSTANCE WILL YOU ATTEMPT TO INSTALL MEMESPLOIT ON WINDOWS OR MAC. Although we do 
-not utilize it for this, Memesploit is a very cybercecurity software, and is very popular for applications in CTFs. Because of this, it contains some files that will alert your 
+1. This project relies on two tools used for pen testing in Cybersecurity, nmap and Metasploit. UNDER NO CURCIMSTANCE WILL YOU ATTEMPT TO INSTALL this in order to cause harm to anyone else or violate there personal data and security in any way shape or form.
+
+Although we do not utilize it for this, Metasploit is a very cybercecurity software, and is very popular for applications in CTFs. Because of this, it contains some files that will alert your 
 antivirus. 
 
-2. THIS PROJECT WILL ONLY RUN ON LINUX. If you wish to install it, please use an Ubuntu or other similar linux Virtual Machine, as  it will not work otherwise.
+2. THIS PROJECT WILL ONLY RUN ON LINUX. If you wish to install it, please use an Ubuntu or other similar linux Virtual Machine, such as kali-linux or parrot-os as it will not work otherwise.
 
-3. BE CAUTIOUS WHEN USING THIS PROGRAM. DO NOT USE THIS ON ANY IP OTHER THAN YOUR OWN. You must be aware that a large number of requests will be made by this program to the 
-network of choice, and less stable networks have a rather high chance of failing.
+3. BE CAUTIOUS WHEN USING THIS PROGRAM. DO NOT USE THIS ON ANY IP OTHER THAN YOUR OWN. You must be aware that a large number of requests will be made by this program to the network of choice, and less stable networks have a rather high chance of failing. REMEBER PLEASE ONLY USE ON IP'S THAT YOU OWN AND NOT RANDOM IP'S.
 
 ONCE THE FOLLOWING IS INSTALLED, RUN uimain.py TO ACCESS THE PROGRAM.
 
 INSTALLATION:
 
-1. Memsploit. Copy and paste the lines one at a time in your Ubuntu terminal, and you could be good to go. If you have trouble, refer to https://www.darkoperator.com/installing-metasploit-in-ubunt.
+1. Metasploit. Copy and paste the lines one at a time in your Ubuntu terminal, and you could be good to go. If you have trouble, refer to https://www.darkoperator.com/installing-metasploit-in-ubunt.
 
   sudo add-apt-repository -y ppa:webupd8team/java
   sudo apt-get update
