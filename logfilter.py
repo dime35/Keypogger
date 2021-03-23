@@ -19,6 +19,7 @@ def readhost():
                 i+=1
     return host
 
+#returns vuln section of .txt file to the application
 def readvuln():
     with open(filename) as f:
         content = f.readlines()
