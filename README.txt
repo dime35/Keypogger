@@ -2,10 +2,9 @@ Hello judges! We are so excited to have you here to try our program! There are a
 
 1. This project relies on two tools used for pen testing in Cybersecurity, nmap and Metasploit. UNDER NO CURCIMSTANCE WILL YOU ATTEMPT TO INSTALL this in order to cause harm to anyone else or violate there personal data and security in any way shape or form.
 
-Although we do not utilize it for this, Metasploit is a very cybercecurity software, and is very popular for applications in CTFs. Because of this, it contains some files that will alert your 
-antivirus. 
+Although we do not utilize it for this, Metasploit is a cybercecurity tool, and is very popular for applications in CTFs. Because of this, it contains some files that will alert your antivirus. Such as SQL injection payloads and viruses used for pen testing a system.
 
-2. THIS PROJECT WILL ONLY RUN ON LINUX. If you wish to install it, please use an Ubuntu or other similar linux Virtual Machine, such as kali-linux or parrot-os as it will not work otherwise.
+2. THIS PROJECT WILL ONLY RUN ON LINUX. If you wish to install it, please use an Ubuntu or other similar linux Virtual Machine, such as kali-linux or parrot-os as it will not work otherwise. As it is not optimized to work on anything else right now.
 
 3. BE CAUTIOUS WHEN USING THIS PROGRAM. DO NOT USE THIS ON ANY IP OTHER THAN YOUR OWN. You must be aware that a large number of requests will be made by this program to the network of choice, and less stable networks have a rather high chance of failing. REMEBER PLEASE ONLY USE ON IP'S THAT YOU OWN AND NOT RANDOM IP'S.
 
